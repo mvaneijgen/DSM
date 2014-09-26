@@ -1,0 +1,191 @@
+html, body {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 16px;
+	overflow-x: hidden;
+}
+.header_img{
+	width: 100%;
+}
+
+.p100{
+	width: 100%;
+}
+
+.bluetxt{
+	color: #009fe3;
+}
+
+.darkbluetxt{
+	color: #003478;
+}
+
+.greentxt{
+	color: #007e4b;
+}
+
+.purpletxt{
+	color: #7a1f61;
+}
+
+.header{
+	padding: 10px 0;
+}
+
+h1{
+	font-size: 26px;
+}
+
+a { outline: 0; }
+
+a.about_top{
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border: solid #009fe3 2px;
+	padding: 4px 10px;
+	text-transform: uppercase;
+	color: #009fe3;
+	font-size: 11px;
+	float: right;
+	margin-top: 10px;
+	cursor: pointer;
+}
+a.about_top:hover{
+	text-decoration: none;
+}
+
+.btw_img{
+	width: 100%;
+}
+
+.col_studies{
+	
+}
+
+.col_studies > img{
+	width: 100%;
+}
+
+.col_studies > .study{
+	background: #fff;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	padding-bottom: 20px;
+}
+
+.btm_nav span{
+	display: inline-block;
+	margin-right: 10px;
+	color: #CCC;
+}
+
+/*MIT*/
+.btn-lg {
+	outline: 0 !important;
+	border: 0;
+	border-radius: 30px;
+	padding: 20px 30px;
+	color: #fff;
+	font-size: 20px;
+	background: #8fc85d; /* Old browsers */
+	background: -moz-linear-gradient(left,  #8fc85d 0%, #08834b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#8fc85d), color-stop(100%,#08834b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #8fc85d 0%,#08834b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #8fc85d 0%,#08834b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #8fc85d 0%,#08834b 100%); /* IE10+ */
+	background: linear-gradient(to right,  #8fc85d 0%,#08834b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fc85d', endColorstr='#08834b',GradientType=1 ); /* IE6-9 */
+}
+.purpletxt span,
+.bluetxt span,
+.greentxt span,
+.about_top span {
+	font-weight: bold;
+}
+.bluetxt.read:before {
+	content: url('../images/rm-blue.png');
+	position: absolute;
+	left: 15px;
+}
+.greentxt.read:before {
+	content: url('../images/rm-green.png');
+	position: absolute;
+	left: 15px;
+}
+.purpletxt.read:before {
+	content: url('../images/rm-purple.png');
+	position: absolute;
+	left: 15px;
+}
+.read {
+padding-left: 32px;
+font-size: 17px;
+}
+h1.purpletxt,
+h1.greentxt,
+h1.bluetxt {
+font-size: 33px;
+}
+p {
+margin: 20px 0 20px;
+}
+.intro {
+font-weight: bold;
+font-size: 24px;
+}
+.p100 {
+width: 285px;
+position: absolute;
+top: -20px;
+}
+.purpletxt.read {
+	color: #be1b76;
+}
+.p200 {
+	width: 100%;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 992px) {
+	.col_studies > div{
+		position: absolute;
+		top: 20%;
+		width: 500px;
+	}
+
+	.col_studies > div.left{
+		left: 25%;
+	}
+	.col_studies > div.right{
+		right: 25%;
+	}
+	.border {
+		border-right: 1px solid #000;
+		margin-right: 35px;
+	}
+	.line-hack {
+		margin-top:-120px;
+	}
+}
+@media only screen and (max-width : 991px) {
+	.p100 {
+	position: relative;
+	}
+	
+	.p200 {
+		display: none;
+	}
+	.line {
+		display: none;
+	}
+}
+
+.container-fluid {
+	padding-right: 0;
+	padding-left: 0;
+}
+.container-fluid {
+max-width: 1600px;
+}
+/*MIT*/
